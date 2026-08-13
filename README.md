@@ -33,7 +33,7 @@ signal-clone/
 │   │   └── main.py       # FastAPI app entrypoint
 │   ├── seed.py           # seeds demo users/conversations/messages
 │   ├── requirements.txt
-│   └── .env.example
+│   └── .env
 └── frontend/
     ├── src/
     │   ├── app/           # Next.js pages (login, main chat page, layout)
@@ -42,7 +42,7 @@ signal-clone/
     │   ├── lib/            # api client, zustand store, formatting utils
     │   └── types/          # shared TypeScript types
     ├── package.json
-    └── .env.local.example
+    └── .env.local
 ```
 
 ---
